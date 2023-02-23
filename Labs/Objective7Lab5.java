@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Objective7Lab5 {
+public class {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		int selection;
+		int selection = 0;
 
 		while (true) {
 			System.out.println("_____Menu_____");
@@ -14,6 +14,9 @@ public class Objective7Lab5 {
 
 			selection = scanner.nextInt();
 
+			if (selection <= 0 || selection > 3) {
+				System.out.println("Enter a value from 1 to 3");
+			}
 			if (selection == 1) {
 				System.out.println("Hello Human");
 			}
