@@ -22,7 +22,7 @@ public class Objective9Lab5 {
 			switch (choice) {
 			case 1:
 				answer = findSum(num1, num2);
-				System.out.println(num1 + " + " + num2 + " is: " + answer);
+				System.out.println(num1 + " + " + num2 + " = " + answer);
 				break;
 			case 2:
 				answer = findAverage(num1, num2);
